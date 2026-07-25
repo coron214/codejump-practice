@@ -4,6 +4,14 @@ Web制作学習サイト「[Codejump](https://code-jump.com/)」の各種制作�
 
 ---
 
+## 📌 GitHub Projects & ロードマップ
+
+* **📊 GitHub Projects (カンバン・タスク管理)**: [Codejump Web制作 写経・学習ロードマップ (Project #5)](https://github.com/users/coron214/projects/5)
+* **📅 ガントチャート & スケジュール**: [ROADMAP.md](./ROADMAP.md)
+* **📋 学習Issue一覧**: [Issues (全7件)](https://github.com/coron214/codejump-practice/issues)
+
+---
+
 ## 📁 リポジトリの構成
 
 各課題ディレクトリ（`01_profile`, `02_photo` ...）は、以下の3つの要素で構成されています。
@@ -19,14 +27,14 @@ Web制作学習サイト「[Codejump](https://code-jump.com/)」の各種制作�
 
 ## 🚀 収録課題一覧
 
-| ディレクトリ | 課題名 | 難易度 | 主な学習テーマ |
+| ディレクトリ | 課題名 | 難易度 | 対応Issue |
 | :--- | :--- | :--- | :--- |
-| **[01_profile](./01_profile)** | プロフィールサイト | 入門編 | 1カラムレイアウト、`line-height: 1px` 隙間消去、3列カード均等配置 |
-| **[02_photo](./02_photo)** | フォトサイト | 入門編 | 2層幅制御 (`container`/`inner`)、順序付きリスト (`ol`)、定義リスト (`dl/dt/dd`) 表組み |
-| **[03_recipe](./03_recipe)** | レシピサイト（トップ） | 入門編 | `100vh` 全画面ファーストビュー、`calc(100%/3)` 3等分、`vertical-align: bottom;` |
-| **[04_brand](./04_brand)** | ブランドサイト（ジュエリー）| 入門編 | `vw` 単位比例配置、Google Fonts、`flex-direction: column-reverse;` 順序反転 |
-| **[05_portfolio1](./05_portfolio1)** | ポートフォリオサイト | 初級編 | `<picture>` デバイス画像切替、フォーム（`form`/`input`/`textarea`/`label`）デザイン |
-| **[06_store1](./06_store1)** | ストアサイト（書店 Mag88）| 初級編 | `position: absolute;` テキストオーバーレイ、`::before` 擬似要素箇条書き |
+| **[01_profile](./01_profile)** | プロフィールサイト | 入門編 | [#1](https://github.com/coron214/codejump-practice/issues/1) |
+| **[02_photo](./02_photo)** | フォトサイト | 入門編 | [#2](https://github.com/coron214/codejump-practice/issues/2) |
+| **[03_recipe](./03_recipe)** | レシピサイト（トップ） | 入門編 | [#3](https://github.com/coron214/codejump-practice/issues/3) |
+| **[04_brand](./04_brand)** | ブランドサイト（ジュエリー）| 入門編 | [#4](https://github.com/coron214/codejump-practice/issues/4) |
+| **[05_portfolio1](./05_portfolio1)** | ポートフォリオサイト | 初級編 | [#5](https://github.com/coron214/codejump-practice/issues/5) |
+| **[06_store1](./06_store1)** | ストアサイト（書店 Mag88）| 初級編 | [#6](https://github.com/coron214/codejump-practice/issues/6) |
 
 ---
 
