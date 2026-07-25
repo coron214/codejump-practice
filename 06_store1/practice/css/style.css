@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+/* 
+  【写経ガイド: ベース ＆ 共通クラス】
+*/
+html {
+  font-size: 100%;
+}
+body {
+  font-family: "Arial", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+  font-size: 0.875rem;
+  color: #2a2a2a;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  opacity: 0.7;
+}
+img {
+  max-width: 100%;
+}
+li {
+  list-style: none;
+}
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+.sec-title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+.btn {
+  color: #2a2a2a;
+  border: solid 1px #2a2a2a;
+  display: inline-block;
+  font-size: 0.750rem;
+  padding: 14px 36px;
+  margin-top: 30px;
+}
+
+/* 
+  -------------------------------------------
+  ヘッダー (#header)
+  -------------------------------------------
+  - #header: height: 100vh; background-image: url(../img/mainvisual.jpg); background-size: cover; position: relative;
+  - #header .site-title: position: absolute; top: 30px; right: 30px; (右上固定配置)
+*/
+#header {
+
+}
+#header .site-title {
+
+}
+
+/* 
+  -------------------------------------------
+  Magazine (#magazine)
+  -------------------------------------------
+  - #magazine .flex-item: display: flex; justify-content: space-between; margin-top: 40px;
+  - #magazine .flex-item .item: width: 49%; position: relative;
+  - #magazine .flex-item .item .text: 
+    max-width: 290px; color: #fff; background-color: rgba(0, 0, 0, 0.5); padding: 15px 0; margin: 0 auto;
+    position: absolute; top: 40%; left: 0; right: 0; (画像中央へオーバーレイ配置)
+*/
+#magazine {
+
+}
+#magazine .flex-item {
+
+}
+#magazine .flex-item .item {
+
+}
+#magazine .flex-item .item .text {
+
+}
+
+/* 
+  -------------------------------------------
+  Fashion (#fashion)
+  -------------------------------------------
+  - #fashion: height: 520px; background-image: url(../img/fashion.jpg); background-size: cover; text-align: center; padding-top: 60px;
+*/
+#fashion {
+
+}
+
+/* 
+  -------------------------------------------
+  Catalog & Antique (.catalog-antique)
+  -------------------------------------------
+  - .catalog-antique: background-color: #f5f5f5; padding: 60px 0;
+  - .catalog-antique .flex-item: display: flex; align-items: center; justify-content: space-between;
+  - .catalog-antique .item: width: 48%;
+*/
+.catalog-antique {
+
+}
+.catalog-antique .flex-item {
+
+}
+.catalog-antique .item {
+
+}
+
+/* 
+  -------------------------------------------
+  フッター (#footer)
+  -------------------------------------------
+  - #footer: background-color: #333; font-size: 0.750rem;
+  - #footer .flex-item: display: flex; justify-content: space-between; color: #fff; padding: 100px 0;
+  - #footer .item: width: 33%;
+  - #footer .item li::before: content: "-"; margin-right: 5px; (カスタムリスト記号挿入)
+  - #footer .copyright: background-color: #fff; text-align: center; padding: 30px 0;
+*/
+#footer {
+
+}
+#footer .flex-item {
+
+}
+#footer .item {
+
+}
+#footer .item li::before {
+
+}
+#footer .copyright {
+
+}
+
+/* 
+  -------------------------------------------
+  SP (レスポンシブ 896px以下)
+  -------------------------------------------
+  - #magazine .flex-item, .catalog-antique .flex-item, #footer .flex-item: flex-direction: column;
+  - #magazine .flex-item .item, .catalog-antique .item, #footer .item: width: 100%;
+*/
+@media screen and (max-width: 896px) {
+  #magazine .flex-item, .catalog-antique .flex-item, #footer .flex-item {
+
+  }
+  #magazine .flex-item .item, .catalog-antique .item, #footer .item {
+
+  }
+}

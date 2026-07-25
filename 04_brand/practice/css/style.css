@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+/* 
+  【写経ガイド: リセット ＆ ブランドフォント設定】
+  - body に Google Fonts の 'Crimson Text', serif を指定します。
+*/
+html {
+  font-size: 100%;
+}
+body {
+  color: #2d2d2d;
+  font-family: 'Crimson Text', serif;
+}
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: #2d2d2d;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 18px;
+}
+.site-title {
+  width: 110px;
+  line-height: 1px;
+  margin-right: 50px;
+}
+.site-title a {
+  display: block;
+}
+.section-title {
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-bottom: 4px;
+}
+.section-title-en {
+  display: inline-block;
+  margin-bottom: 25px;
+}
+
+/* 
+  -------------------------------------------
+  Mainvisual (#mainvisual)
+  -------------------------------------------
+  - #mainvisual: width: 90vw; margin: 4% auto 0 auto; (画面幅90%比率の配置)
+*/
+#mainvisual {
+
+}
+
+/* 
+  -------------------------------------------
+  Header (#header)
+  -------------------------------------------
+  - #header: width: 90vw; display: flex; align-items: center; padding: 32px 0; margin: 0 auto 30px auto;
+  - #header ul: display: flex;
+  - #header li: margin-right: 30px;
+  - #header li:last-child: margin-right: 0;
+*/
+#header {
+
+}
+#header ul {
+
+}
+#header li {
+
+}
+
+/* 
+  -------------------------------------------
+  Concept、Work (.content)
+  -------------------------------------------
+  - .content: display: flex; align-items: center; margin-bottom: 60px; (左右50%の横並び)
+  - .content .img: width: 50%;
+  - .content .text: width: 50%; padding: 0 7%;
+*/
+.content {
+
+}
+.content .img {
+
+}
+.content .text {
+
+}
+
+/* 
+  -------------------------------------------
+  Footer (#footer)
+  -------------------------------------------
+  - #footer: display: flex; justify-content: space-between; font-size: 0.875rem; padding: 20px 0;
+  - #footer .logo: width: 110px;
+*/
+#footer {
+
+}
+#footer .logo {
+
+}
+
+/* 
+  -------------------------------------------
+  SP (レスポンシブ 767px以下)
+  -------------------------------------------
+  - #mainvisual: width: 100%; margin: 0;
+  - #mainvisual img: height: 50vh; object-fit: cover;
+  - #header: width: 100%; padding: 20px 18px;
+  - #work: flex-direction: column-reverse; (HTML構造を変更せずに画像/テキストの上下順を反転)
+  - .content: flex-direction: column;
+  - .content .img, .content .text: width: 100%; padding: 0;
+*/
+@media screen and (max-width: 767px) {
+  #mainvisual {
+
+  }
+  #mainvisual img {
+
+  }
+  #header {
+
+  }
+  #work {
+
+  }
+  .content {
+
+  }
+  .content .img {
+
+  }
+  .content .text {
+
+  }
+}

@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+/* 
+  【写経ガイド: リセット ＆ 基本設定】
+*/
+html {
+  font-size: 100%;
+}
+body {
+  color: #2b2a27;
+  font-family: "Helvetica Neue", "Arial", "Hiragino Sans", "Meiryo", sans-serif;
+}
+img {
+  max-width: 100%;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: #2b2a27;
+}
+
+/* 
+  -------------------------------------------
+  Mainvisual (#mainvisual)
+  -------------------------------------------
+  - #mainvisual img: 
+    width: 100%; height: 100vh; (画面全高に展開)
+    object-fit: cover; object-position: center top; (上部中心で切り抜き)
+    margin-bottom: 80px;
+*/
+#mainvisual img {
+
+}
+
+/* 
+  -------------------------------------------
+  Text (.text)
+  -------------------------------------------
+  - .text: text-align: center; padding: 0 20px; margin-bottom: 80px;
+  - .text .site-title: margin-bottom: 20px;
+  - .text .btn: 
+    display: inline-block; (aタグのボタン化)
+    border: solid 1px #2b2a27; font-size: 0.875rem; padding: 18px 60px; text-decoration: none;
+*/
+.text {
+
+}
+.text .site-title {
+
+}
+.text .btn {
+
+}
+
+/* 
+  -------------------------------------------
+  Image (.flex)
+  -------------------------------------------
+  - .flex: display: flex; margin-bottom: 60px;
+  - .flex li: width: calc(100% / 3); (calcによる正確な3等分)
+  - .flex li img: 
+    width: 100%; height: 500px; object-fit: cover;
+    vertical-align: bottom; (画像直下のベースライン隙間消去)
+*/
+.flex {
+
+}
+.flex li {
+
+}
+.flex li img {
+
+}
+
+/* 
+  -------------------------------------------
+  Footer (#footer)
+  -------------------------------------------
+  - #footer: font-size: 0.75rem; padding: 20px; text-align: center;
+  - #footer .sns: display: flex; justify-content: center; margin-bottom: 20px;
+  - #footer .sns li: margin: 0 10px;
+*/
+#footer {
+
+}
+#footer .sns {
+
+}
+#footer .sns li {
+
+}
+
+/* 
+  -------------------------------------------
+  SP (レスポンシブ 834px以下)
+  -------------------------------------------
+  - .flex: flex-direction: column; (1列縦積みへ切替)
+  - .flex li: width: 100%;
+*/
+@media screen and (max-width: 834px) {
+  .flex {
+
+  }
+  .flex li {
+
+  }
+}

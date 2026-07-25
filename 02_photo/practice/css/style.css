@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+/* 
+  【写経ガイド: ベーススタイル ＆ レイアウト枠】
+  - body に背景色 #f4f9ff、文字色 #333 を指定します。
+  - .container: max-width: 1000px; margin: 0 auto; (全体外枠1000px)
+  - .inner: max-width: 600px; margin: 0 auto; (テキスト絞り込み枠600px)
+*/
+html {
+  font-size: 100%;
+}
+body {
+  background-color: #f4f9ff;
+  color: #333;
+  font-size: 0.875rem;
+}
+img {
+  max-width: 100%;
+}
+
+.container {
+
+}
+.inner {
+
+}
+.section-title {
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* 
+  -------------------------------------------
+  ヘッダー (#header)
+  -------------------------------------------
+  - #header: margin-top: 60px;
+  - #header .site-title: width: 160px; line-height: 1px; margin-bottom: 15px;
+*/
+#header {
+
+}
+#header .site-title {
+
+}
+#header .site-title a {
+  display: block;
+}
+
+/* 
+  -------------------------------------------
+  Mainvisual (#mainvisual)
+  -------------------------------------------
+*/
+#mainvisual {
+  margin-bottom: 60px;
+}
+
+/* 
+  -------------------------------------------
+  Index (#index)
+  -------------------------------------------
+  - #index: background-color: #fff; padding: 30px 0; margin-bottom: 60px;
+  - #index .index-list: margin-left: 20px; (ol番号のインデント確保)
+  - #index .index-list li: margin-bottom: 20px;
+  - #index .index-list li:last-child: margin-bottom: 0; (末尾余白消去)
+*/
+#index {
+
+}
+#index .index-list {
+
+}
+#index .index-list li {
+
+}
+#index .index-list li:last-child {
+
+}
+
+/* 
+  -------------------------------------------
+  Detail (#detail)
+  -------------------------------------------
+  - #detail .content: display: flex; align-items: flex-start; (画像とテキストを横並び)
+  - #detail .content .img: width: 270px; margin-right: 60px;
+  - #detail .content dl: display: flex; flex-wrap: wrap; border-top: solid 1px #dedede; border-bottom: solid 1px #dedede; (定義リストのFlex表組み)
+  - #detail .content dt: width: 25%;
+  - #detail .content dd: width: 75%;
+*/
+#detail {
+  margin-bottom: 100px;
+}
+#detail .content {
+
+}
+#detail .content .img {
+
+}
+#detail .content dl {
+
+}
+#detail .content dt {
+
+}
+#detail .content dd {
+
+}
+#detail .content .link:hover {
+  opacity: 0.8;
+}
+
+/* 
+  -------------------------------------------
+  footer (#footer)
+  -------------------------------------------
+*/
+#footer {
+  font-size: 0.625rem;
+  padding: 15px 0;
+}
+
+/* 
+  -------------------------------------------
+  SP (レスポンシブ 1024px以下)
+  -------------------------------------------
+  - .inner: padding: 0 40px; (左右余白確保)
+  - #detail .content: flex-direction: column; (縦並びへ切替)
+  - #detail .content .img: width: 100%; margin: 0 0 25px 0;
+*/
+@media screen and (max-width: 1024px) {
+  .inner {
+
+  }
+  #detail .content {
+
+  }
+  #detail .content .img {
+
+  }
+}

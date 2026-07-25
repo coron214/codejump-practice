@@ -1,0 +1,178 @@
+@charset "UTF-8";
+
+/* 
+  【写経ガイド: リセット ＆ 基本設定】
+*/
+html {
+  font-size: 100%;
+}
+body {
+  color: #24292e;
+}
+img {
+  max-width: 100%;
+}
+li {
+  list-style: none;
+}
+
+.site-title {
+  width: 120px;
+  line-height: 1px;
+}
+.site-title a {
+  display: block;
+}
+.section-title {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto 130px auto;
+  padding: 0 4%;
+}
+
+/* 
+  -------------------------------------------
+  Header (#header)
+  -------------------------------------------
+  - #header: max-width: 960px; display: flex; justify-content: space-between; align-items: center; margin: 0 auto; padding: 0 4%; height: 270px;
+  - #header ul: display: flex; align-items: center;
+  - #header li: margin-left: 30px;
+  - #header li a:hover: opacity: 0.7;
+  - #header li .icon: width: 20px;
+*/
+#header {
+
+}
+#header ul {
+
+}
+#header li {
+
+}
+
+/* 
+  -------------------------------------------
+  Mainvisual (#mainvisual)
+  -------------------------------------------
+  - #mainvisual: margin-bottom: 130px;
+  - #mainvisual img: width: 100%; max-width: 1920px; height: 420px; object-fit: cover;
+*/
+#mainvisual {
+
+}
+#mainvisual img {
+
+}
+
+/* 
+  -------------------------------------------
+  About (#about)
+  -------------------------------------------
+*/
+#about .content {
+  text-align: center;
+}
+
+/* 
+  -------------------------------------------
+  Works (#works)
+  -------------------------------------------
+  - #works ul: display: flex; flex-wrap: wrap; justify-content: space-between; (カードギャラリー用)
+  - #works li: width: 31%; margin-bottom: 30px; (3列グリッド)
+*/
+#works ul {
+
+}
+#works li {
+
+}
+
+/* 
+  -------------------------------------------
+  News (#news)
+  -------------------------------------------
+  - #news dl: display: flex; flex-wrap: wrap; border-top: solid 1px #c8c8c8;
+  - #news dt: width: 20%; border-bottom: solid 1px #c8c8c8; padding: 15px;
+  - #news dd: width: 80%; border-bottom: solid 1px #c8c8c8; padding: 15px;
+*/
+#news dl {
+
+}
+#news dt {
+
+}
+#news dd {
+
+}
+
+/* 
+  -------------------------------------------
+  Contact (#contact)
+  -------------------------------------------
+  - #contact dl: display: flex; flex-wrap: wrap; margin-bottom: 20px;
+  - #contact dt: width: 15%;
+  - #contact dd: width: 85%; margin-bottom: 10px;
+  - #contact dd input, #contact dd textarea: width: 100%; border: solid 1px #c8c8c8; padding: 10px;
+  - #contact .button input: width: 200px; background-color: #24292e; color: #fff; padding: 15px 0;
+*/
+#contact dl {
+
+}
+#contact dt {
+
+}
+#contact dd {
+
+}
+#contact dd input,
+#contact dd textarea {
+
+}
+#contact .button input {
+
+}
+
+/* 
+  -------------------------------------------
+  Footer (#footer)
+  -------------------------------------------
+*/
+#footer {
+  background-color: #24292e;
+  color: #fff;
+  font-size: 0.5rem;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* 
+  -------------------------------------------
+  SP (レスポンシブ 600px以下)
+  -------------------------------------------
+  - #header: flex-direction: column; height: auto; padding: 20px 0;
+  - #mainvisual img: height: 280px;
+  - #works li: width: 100%; (1列グリッドへ切替)
+  - #news dl, #contact dl: flex-direction: column;
+  - #news dt, #news dd, #contact dt, #contact dd: width: 100%;
+*/
+@media screen and (max-width: 600px) {
+  #header {
+
+  }
+  #mainvisual img {
+
+  }
+  #works li {
+
+  }
+  #news dl, #contact dl {
+
+  }
+  #news dt, #news dd, #contact dt, #contact dd {
+
+  }
+}

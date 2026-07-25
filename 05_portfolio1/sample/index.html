@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>My Portfolio</title>
+    <meta name="description" content="【初級編】ポートフォリオサイトの模範解答コードです。">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <!-- ヘッダー -->
+    <header id="header">
+      <h1 class="site-title">
+        <a href="index.html"><img src="img/logo.svg" alt="My Portfolio"></a>
+      </h1>
+
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#works">Works</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+              <img class="icon" src="img/icon-instagram.png" alt="インスタグラム">
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- メインビジュアル (<picture> タグでの最適画像切替) -->
+      <div id="mainvisual">
+        <picture>
+          <source media="(max-width: 600px)" srcset="img/mainvisual-sp.jpg">
+          <img src="img/mainvisual-pc.jpg" alt="メインビジュアル">
+        </picture>
+      </div>
+
+      <!-- Aboutセクション -->
+      <section id="about" class="wrapper">
+        <h2 class="section-title">About</h2>
+        <div class="content">
+          <p>
+            テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
+            テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
+            テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+          </p>
+        </div>
+      </section>
+
+      <!-- Worksセクション -->
+      <section id="works" class="wrapper">
+        <h2 class="section-title">Works</h2>
+        <ul>
+          <li><img src="img/works1.jpg" alt="作品1"></li>
+          <li><img src="img/works2.jpg" alt="作品2"></li>
+          <li><img src="img/works3.jpg" alt="作品3"></li>
+          <li><img src="img/works4.jpg" alt="作品4"></li>
+          <li><img src="img/works5.jpg" alt="作品5"></li>
+          <li><img src="img/works6.jpg" alt="作品6"></li>
+        </ul>
+      </section>
+
+      <!-- Newsセクション -->
+      <section id="news" class="wrapper">
+        <h2 class="section-title">News</h2>
+        <dl>
+          <dt>2020.XX.XX</dt>
+          <dd>デザイン雑誌「XXXXXX Vol.10」に掲載されました。</dd>
+          <dt>2020.XX.XX</dt>
+          <dd>XXXXX Design Award 2020 で優秀賞を受賞しました。</dd>
+          <dt>2020.XX.XX</dt>
+          <dd>XXXXXX Exhibition 2020 に出品します。</dd>
+        </dl>
+      </section>
+
+      <!-- Contactセクション -->
+      <section id="contact" class="wrapper">
+        <h2 class="section-title">Contact</h2>
+        <form action="#" method="post">
+          <dl>
+            <dt><label for="name">NAME</label></dt>
+            <dd><input type="text" id="name" name="your-name"></dd>
+            <dt><label for="email">E-MAIL</label></dt>
+            <dd><input type="email" id="email" name="your-email"></dd>
+            <dt><label for="message">MESSAGE</label></dt>
+            <dd><textarea id="message" name="your-message"></textarea></dd>
+          </dl>
+          <div class="button"><input type="submit" value="送信"></div>
+        </form>
+      </section>
+    </main>
+
+    <!-- フッター -->
+    <footer id="footer">
+      <p>&copy; 2020 My Portfolio</p>
+    </footer>
+  </body>
+</html>
